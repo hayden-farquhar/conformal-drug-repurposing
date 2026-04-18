@@ -4,7 +4,7 @@
 
 Replication code and processed outputs for:
 
-> Farquhar H. Calibrated uncertainty for computational drug repurposing via conformal prediction on the Open Targets knowledge graph. *Briefings in Bioinformatics* (under review), 2026.
+> Farquhar H. Calibrated uncertainty for computational drug repurposing via conformal prediction on the Open Targets knowledge graph. 2026.
 
 ## Overview
 
@@ -110,12 +110,10 @@ Raw data files are not included due to size (~100 GB). Run `scripts/01_download_
 If you use this code, please cite:
 
 ```bibtex
-@article{farquhar2026conformal,
+@misc{farquhar2026conformal,
   title={Calibrated uncertainty for computational drug repurposing via conformal prediction on the Open Targets knowledge graph},
   author={Farquhar, Hayden},
-  journal={Briefings in Bioinformatics},
-  year={2026},
-  note={Under review}
+  year={2026}
 }
 ```
 
