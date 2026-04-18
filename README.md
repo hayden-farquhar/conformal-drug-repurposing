@@ -123,4 +123,4 @@ This code is released under the MIT Licence. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-Hayden Farquhar — hayden.farquhar@icloud.com
+Hayden Farquhar, MBBS MPHTM — Independent Researcher, Finley, NSW, Australia — hayden.farquhar@icloud.com
