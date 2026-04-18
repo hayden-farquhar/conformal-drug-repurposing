@@ -1,0 +1,15 @@
+{
+  "empty_set_analysis": {
+    "alpha_080": {
+      "n_empty": 64,
+      "true_negatives": 36,
+      "true_positives": 28,
+      "npv": 0.5625
+    },
+    "alpha_085": {
+      "n_empty": 11,
+      "npv": 0.5454545454545454
+    }
+  },
+  "calibration_ece": {}
+}

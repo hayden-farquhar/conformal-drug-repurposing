@@ -1,0 +1,55 @@
+{
+  "train": {
+    "auroc": 0.8533774842832231,
+    "auprc": 0.019829432796395638,
+    "brier": 0.15597661379690714,
+    "n_samples": 6425214,
+    "n_positive": 13642
+  },
+  "calibration": {
+    "auroc": 0.8138350694444445,
+    "auprc": 0.4880883469131222,
+    "brier": 0.16480848491426853,
+    "n_samples": 1440,
+    "n_positive": 240
+  },
+  "test": {
+    "auroc": 0.7946145124716554,
+    "auprc": 0.4951913410170452,
+    "brier": 0.16966770582980104,
+    "n_samples": 504,
+    "n_positive": 84
+  },
+  "feature_cols": [
+    "cancer_biomarkers",
+    "cancer_gene_census",
+    "clingen",
+    "crispr",
+    "crispr_screen",
+    "europepmc",
+    "eva",
+    "eva_somatic",
+    "expression_atlas",
+    "gene2phenotype",
+    "gene_burden",
+    "genomics_england",
+    "gwas_credible_sets",
+    "impc",
+    "intogen",
+    "orphanet",
+    "reactome",
+    "uniprot_literature",
+    "uniprot_variants",
+    "n_targets",
+    "disease_ontology_max_sim",
+    "disease_ontology_mean_sim",
+    "disease_ontology_n_related",
+    "target_degree_max",
+    "target_degree_mean",
+    "target_mean_interaction_score",
+    "target_disease_network_overlap",
+    "drug_fp_sim_max",
+    "drug_fp_sim_mean",
+    "drug_has_smiles"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "reference": "Huang et al. 2024, Nature Medicine (TxGNN)",
+  "doi": "10.1038/s41591-023-02789-y",
+  "dimensions": {
+    "knowledge_graph": {
+      "txgnn": "Custom KG from 17 biomedical databases, ~1.3M nodes, ~7.6M edges",
+      "ours": "Open Targets 26.03 (single integrated platform), ~83K nodes, ~5.1M edges",
+      "note": "TxGNN uses a broader graph; ours is more focused on evidence-scored associations"
+    },
+    "model_architecture": {
+      "txgnn": "Modified GAT with disease-area-specific modules, zero-shot capability",
+      "ours_xgboost": "XGBoost on 30 handcrafted features (evidence scores + network + chemical)",
+      "ours_graphsage": "3-layer heterogeneous GraphSAGE with learnable embeddings",
+      "note": "Our XGBoost outperforms our GraphSAGE, suggesting feature engineering > end-to-end learning for this graph"
+    },
+    "uncertainty_quantification": {
+      "txgnn": "None \u2014 outputs point predictions only",
+      "ours": "Marginal + Mondrian conformal prediction with coverage guarantees",
+      "note": "This is our primary methodological contribution \u2014 first application of CP to drug repurposing"
+    },
+    "evaluation": {
+      "txgnn": "Random train/test split, disease-area stratified evaluation",
+      "ours": "Temporal validation (train \u22642019, test 2023\u20132025), temporal split sensitivity analysis",
+      "note": "Temporal validation is more realistic for prospective drug repurposing"
+    },
+    "reported_metrics": {
+      "txgnn": "AUROC ~0.77\u20130.92 across disease areas (varies by area, not directly comparable)",
+      "ours": {
+        "xgboost_test_auroc": 0.9055555555555556,
+        "graphsage_test_auroc": 0.8328231292517005
+      },
+      "note": "Direct comparison not possible due to different KGs, splits, and disease scope"
+    },
+    "key_differences": [
+      "TxGNN is zero-shot (predicts for unseen diseases); our model requires diseases in KG",
+      "TxGNN has no uncertainty quantification; ours provides calibrated prediction sets",
+      "TxGNN uses random splits; ours uses temporal validation reflecting real-world discovery",
+      "Our feature-engineered XGBoost outperforms our GNN, contra TxGNN's architecture"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "observed_coverage": 0.9107142857142857,
+  "nominal_alpha": 0.9,
+  "permutation_p_value": 0.5136,
+  "n_permutations": 5000,
+  "permutation_coverage_mean": 0.9003531746031745,
+  "permutation_coverage_std": 0.015532700553031452,
+  "interpretation": "Exchangeability NOT rejected",
+  "coverage_by_confidence_quartile": [
+    {
+      "quartile": "Q1 (lowest)",
+      "coverage": 1.0,
+      "n": 126
+    },
+    {
+      "quartile": "Q2",
+      "coverage": 0.9761904761904762,
+      "n": 126
+    },
+    {
+      "quartile": "Q3",
+      "coverage": 0.8809523809523809,
+      "n": 126
+    },
+    {
+      "quartile": "Q4 (highest)",
+      "coverage": 0.7857142857142857,
+      "n": 126
+    }
+  ]
+}

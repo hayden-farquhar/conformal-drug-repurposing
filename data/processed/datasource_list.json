@@ -1,0 +1,22 @@
+[
+  "cancer_biomarkers",
+  "cancer_gene_census",
+  "clingen",
+  "clinical_precedence",
+  "crispr",
+  "crispr_screen",
+  "europepmc",
+  "eva",
+  "eva_somatic",
+  "expression_atlas",
+  "gene2phenotype",
+  "gene_burden",
+  "genomics_england",
+  "gwas_credible_sets",
+  "impc",
+  "intogen",
+  "orphanet",
+  "reactome",
+  "uniprot_literature",
+  "uniprot_variants"
+]

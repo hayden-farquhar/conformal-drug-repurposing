@@ -1,0 +1,14 @@
+{
+  "train": {
+    "positive": 13642,
+    "negative": 6411572
+  },
+  "calibration": {
+    "positive": 240,
+    "negative": 1200
+  },
+  "test": {
+    "positive": 84,
+    "negative": 420
+  }
+}

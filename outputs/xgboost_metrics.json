@@ -1,0 +1,70 @@
+{
+  "train": {
+    "auroc": 0.9945519507256892,
+    "auprc": 0.33478084059289787,
+    "brier": 0.03631022945046425,
+    "n_samples": 6425214,
+    "n_positive": 13642,
+    "prevalence": 0.002123197764307928
+  },
+  "calibration": {
+    "auroc": 0.8897343749999999,
+    "auprc": 0.5965618739944571,
+    "brier": 0.09853591024875641,
+    "n_samples": 1440,
+    "n_positive": 240,
+    "prevalence": 0.16666666666666666
+  },
+  "test": {
+    "auroc": 0.9055555555555556,
+    "auprc": 0.6250551763825952,
+    "brier": 0.09100273996591568,
+    "n_samples": 504,
+    "n_positive": 84,
+    "prevalence": 0.16666666666666666
+  },
+  "best_params": {
+    "n_estimators": 500,
+    "max_depth": 7,
+    "learning_rate": 0.1,
+    "subsample": 0.9,
+    "colsample_bytree": 1.0,
+    "min_child_weight": 1,
+    "gamma": 1.0,
+    "reg_alpha": 1.0,
+    "reg_lambda": 10.0
+  },
+  "cv_auprc": 0.12872729064667018,
+  "feature_cols": [
+    "cancer_biomarkers",
+    "cancer_gene_census",
+    "clingen",
+    "crispr",
+    "crispr_screen",
+    "europepmc",
+    "eva",
+    "eva_somatic",
+    "expression_atlas",
+    "gene2phenotype",
+    "gene_burden",
+    "genomics_england",
+    "gwas_credible_sets",
+    "impc",
+    "intogen",
+    "orphanet",
+    "reactome",
+    "uniprot_literature",
+    "uniprot_variants",
+    "n_targets",
+    "disease_ontology_max_sim",
+    "disease_ontology_mean_sim",
+    "disease_ontology_n_related",
+    "target_degree_max",
+    "target_degree_mean",
+    "target_mean_interaction_score",
+    "target_disease_network_overlap",
+    "drug_fp_sim_max",
+    "drug_fp_sim_mean",
+    "drug_has_smiles"
+  ]
+}

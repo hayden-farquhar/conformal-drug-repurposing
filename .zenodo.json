@@ -1,0 +1,30 @@
+{
+  "title": "Calibrated uncertainty for drug repurposing via conformal prediction on the Open Targets knowledge graph — replication code",
+  "description": "Replication code and analysis outputs for the first application of conformal prediction to knowledge-graph-based drug repurposing. Includes XGBoost and GraphSAGE models, marginal and Mondrian conformal prediction calibration, feature ablation, and case study analyses on 6.4 million drug-disease pairs from the Open Targets Platform release 26.03.",
+  "creators": [
+    {
+      "name": "Farquhar, Hayden",
+      "orcid": "0009-0002-6226-440X",
+      "affiliation": "School of Public Health and Community Medicine, University of New South Wales, Sydney, Australia"
+    }
+  ],
+  "keywords": [
+    "drug repurposing",
+    "conformal prediction",
+    "uncertainty quantification",
+    "knowledge graph",
+    "Open Targets",
+    "XGBoost",
+    "GraphSAGE"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://platform.opentargets.org",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ]
+}

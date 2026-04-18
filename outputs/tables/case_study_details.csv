@@ -1,0 +1,11 @@
+drug_id,disease_id,label,split,y_prob,drug_name,disease_name,therapeutic_area_name,drug_type,marginal_set_size,mondrian_set_size,confirmed_in_test
+CHEMBL4650509,MONDO_0005148,0,train,0.998275876045227,MIBAVADEMAB,type 2 diabetes mellitus,endocrine system disease,Antibody,,,False
+CHEMBL2107857,MONDO_0005148,0,train,0.998275876045227,METRELEPTIN,type 2 diabetes mellitus,endocrine system disease,Protein,,,False
+CHEMBL1703,Orphanet_309005,0,train,0.995073139667511,METFORMIN HYDROCHLORIDE,Disorder of lipid metabolism,nutritional or metabolic disease,Small molecule,,,False
+CHEMBL877,MONDO_0008833,0,train,0.9940176010131836,TRANEXAMIC ACID,renal-hepatic-pancreatic dysplasia 1,"genetic, familial or congenital disease",Small molecule,,,False
+CHEMBL397420,EFO_0004286,0,train,0.9930679798126221,ACENOCOUMAROL,venous thromboembolism,cardiovascular disease,Small molecule,,,False
+CHEMBL1201863,EFO_0003882,0,train,0.9917024970054626,DEXLANSOPRAZOLE,osteoporosis,musculoskeletal or connective tissue disease,Small molecule,,,False
+CHEMBL480,EFO_0003882,0,train,0.9917024970054626,LANSOPRAZOLE,osteoporosis,musculoskeletal or connective tissue disease,Small molecule,,,False
+CHEMBL2145077,MONDO_0019171,0,train,0.9913124442100525,IVABRADINE HYDROCHLORIDE,familial long QT syndrome,"genetic, familial or congenital disease",Small molecule,,,False
+CHEMBL2105664,EFO_0004286,0,train,0.9912106990814209,TECARFARIN,venous thromboembolism,cardiovascular disease,Small molecule,,,False
+CHEMBL1201320,EFO_0003882,0,train,0.9899869561195374,ESOMEPRAZOLE,osteoporosis,musculoskeletal or connective tissue disease,Small molecule,,,False

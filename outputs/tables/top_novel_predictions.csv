@@ -1,0 +1,51 @@
+drug_id,disease_id,label,split,y_prob,drug_name,disease_name,therapeutic_area_name,drug_type,marginal_set_size,mondrian_set_size,rank
+CHEMBL4650509,MONDO_0005148,0,train,0.998275876045227,MIBAVADEMAB,type 2 diabetes mellitus,endocrine system disease,Antibody,,,1
+CHEMBL2107857,MONDO_0005148,0,train,0.998275876045227,METRELEPTIN,type 2 diabetes mellitus,endocrine system disease,Protein,,,2
+CHEMBL1703,HP_0003074,0,train,0.995552122592926,METFORMIN HYDROCHLORIDE,Hyperglycemia,phenotype,Small molecule,,,3
+CHEMBL1703,Orphanet_309005,0,train,0.995073139667511,METFORMIN HYDROCHLORIDE,Disorder of lipid metabolism,nutritional or metabolic disease,Small molecule,,,4
+CHEMBL1703,MONDO_0018076,0,train,0.9941776990890503,METFORMIN HYDROCHLORIDE,tuberculosis,infectious disease,Small molecule,,,5
+CHEMBL877,MONDO_0008833,0,train,0.9940176010131836,TRANEXAMIC ACID,renal-hepatic-pancreatic dysplasia 1,"genetic, familial or congenital disease",Small molecule,,,6
+CHEMBL1703,EFO_0000537,0,train,0.9931894540786743,METFORMIN HYDROCHLORIDE,hypertension,cardiovascular disease,Small molecule,,,7
+CHEMBL397420,EFO_0004286,0,train,0.9930679798126221,ACENOCOUMAROL,venous thromboembolism,cardiovascular disease,Small molecule,,,8
+CHEMBL1703,MONDO_0010679,0,train,0.9922460913658142,METFORMIN HYDROCHLORIDE,Duchenne muscular dystrophy,nervous system disease,Small molecule,,,9
+CHEMBL1703,HP_0000855,0,train,0.9922103881835938,METFORMIN HYDROCHLORIDE,Insulin resistance,phenotype,Small molecule,,,10
+CHEMBL1703,EFO_0000474,0,train,0.9921269416809082,METFORMIN HYDROCHLORIDE,epilepsy,nervous system disease,Small molecule,,,11
+CHEMBL1703,EFO_0002687,0,train,0.99201500415802,METFORMIN HYDROCHLORIDE,ischemia reperfusion injury,"injury, poisoning or other complication",Small molecule,,,12
+CHEMBL1703,EFO_0004265,0,train,0.9918243288993835,METFORMIN HYDROCHLORIDE,peripheral arterial disease,cardiovascular disease,Small molecule,,,13
+CHEMBL1703,EFO_0000668,0,train,0.9918107986450195,METFORMIN HYDROCHLORIDE,preeclampsia,"genetic, familial or congenital disease",Small molecule,,,14
+CHEMBL1201863,EFO_0003882,0,train,0.9917024970054626,DEXLANSOPRAZOLE,osteoporosis,musculoskeletal or connective tissue disease,Small molecule,,,15
+CHEMBL480,EFO_0003882,0,train,0.9917024970054626,LANSOPRAZOLE,osteoporosis,musculoskeletal or connective tissue disease,Small molecule,,,16
+CHEMBL2145077,MONDO_0019171,0,train,0.9913124442100525,IVABRADINE HYDROCHLORIDE,familial long QT syndrome,"genetic, familial or congenital disease",Small molecule,,,17
+CHEMBL2105664,EFO_0004286,0,train,0.9912106990814209,TECARFARIN,venous thromboembolism,cardiovascular disease,Small molecule,,,18
+CHEMBL1703,MONDO_0011382,0,train,0.9909776449203491,METFORMIN HYDROCHLORIDE,sickle cell disease,"genetic, familial or congenital disease",Small molecule,,,19
+CHEMBL1703,EFO_0003894,0,train,0.9906361699104309,METFORMIN HYDROCHLORIDE,acne,integumentary system disease,Small molecule,,,20
+CHEMBL1703,MONDO_0005277,0,train,0.9903429746627808,METFORMIN HYDROCHLORIDE,migraine disorder,nervous system disease,Small molecule,,,21
+CHEMBL1201320,EFO_0003882,0,train,0.9899869561195374,ESOMEPRAZOLE,osteoporosis,musculoskeletal or connective tissue disease,Small molecule,,,22
+CHEMBL1503,EFO_0003882,0,train,0.9899869561195374,OMEPRAZOLE,osteoporosis,musculoskeletal or connective tissue disease,Small molecule,,,23
+CHEMBL256087,MONDO_0005277,0,train,0.989734411239624,MENTHOL,migraine disorder,nervous system disease,Small molecule,,,24
+CHEMBL25,HP_0001385,0,train,0.9897077083587646,ASPIRIN,Hip dysplasia,phenotype,Small molecule,,,25
+CHEMBL1201863,EFO_0000668,0,train,0.9895854592323303,DEXLANSOPRAZOLE,preeclampsia,"genetic, familial or congenital disease",Small molecule,,,26
+CHEMBL480,EFO_0000668,0,train,0.9895854592323303,LANSOPRAZOLE,preeclampsia,"genetic, familial or congenital disease",Small molecule,,,27
+CHEMBL413,EFO_0009510,0,train,0.9895534515380859,SIROLIMUS,peripheral nerve injury,nervous system disease,Small molecule,,,28
+CHEMBL1908360,EFO_0009510,0,train,0.9895534515380859,EVEROLIMUS,peripheral nerve injury,nervous system disease,Small molecule,,,29
+CHEMBL940,HP_0000103,0,train,0.9893723130226135,GABAPENTIN,Polyuria,phenotype,Small molecule,,,30
+CHEMBL1466,EFO_0004286,0,train,0.9892870187759399,DICUMAROL,venous thromboembolism,cardiovascular disease,Small molecule,,,31
+CHEMBL1200879,EFO_0004286,0,train,0.9889785647392273,WARFARIN SODIUM,venous thromboembolism,cardiovascular disease,Small molecule,,,32
+CHEMBL1465,EFO_0004286,0,train,0.9889137148857117,PHENPROCOUMON,venous thromboembolism,cardiovascular disease,Small molecule,,,33
+CHEMBL1703,MONDO_0007739,0,train,0.988593578338623,METFORMIN HYDROCHLORIDE,Huntington disease,nervous system disease,Small molecule,,,34
+CHEMBL1703,HP_0001268,0,train,0.9884334206581116,METFORMIN HYDROCHLORIDE,Mental deterioration,phenotype,Small molecule,,,35
+CHEMBL1703,EFO_0000676,0,train,0.9884225726127625,METFORMIN HYDROCHLORIDE,psoriasis,immune system disease,Small molecule,,,36
+CHEMBL1703,EFO_0005762,0,train,0.9881536364555359,METFORMIN HYDROCHLORIDE,neuropathic pain,phenotype,Small molecule,,,37
+CHEMBL2105671,MONDO_0005180,0,train,0.9880853891372681,AFEGOSTAT TARTRATE,Parkinson disease,nervous system disease,Small molecule,,,38
+CHEMBL1695,MONDO_0005090,0,train,0.9879212379455566,TIAGABINE HYDROCHLORIDE,schizophrenia,psychiatric disorder,Small molecule,,,39
+CHEMBL2108658,MONDO_0007915,0,train,0.9878155589103699,TREMELIMUMAB,systemic lupus erythematosus,immune system disease,Antibody,,,40
+CHEMBL4650419,MONDO_0007915,0,train,0.9878155589103699,QUAVONLIMAB,systemic lupus erythematosus,immune system disease,Antibody,,,41
+CHEMBL4297876,MONDO_0007915,0,train,0.9878155589103699,ZALIFRELIMAB,systemic lupus erythematosus,immune system disease,Antibody,,,42
+CHEMBL1789844,MONDO_0007915,0,train,0.9878155589103699,IPILIMUMAB,systemic lupus erythematosus,immune system disease,Antibody,,,43
+CHEMBL1200772,EFO_0004286,0,train,0.9876870512962341,WARFARIN POTASSIUM,venous thromboembolism,cardiovascular disease,Small molecule,,,44
+CHEMBL269732,EFO_0010673,0,train,0.9873260855674744,TACROLIMUS ANHYDROUS,cardiac transplant,medical procedure,Small molecule,,,45
+CHEMBL1237023,EFO_0000649,0,train,0.9867404103279114,DENOSUMAB,periodontitis,gastrointestinal disease,Antibody,,,46
+CHEMBL1703,HP_0100806,0,train,0.986625075340271,METFORMIN HYDROCHLORIDE,Sepsis,phenotype,Small molecule,,,47
+CHEMBL1703,EFO_0004566,0,train,0.9865614771842957,METFORMIN HYDROCHLORIDE,body weight gain,phenotype,Small molecule,,,48
+CHEMBL4297797,MONDO_0004979,0,train,0.9863009452819824,NNC0114-0006,asthma,phenotype,Unknown,,,49
+CHEMBL742,MONDO_0002280,0,train,0.9861822128295898,KETAMINE,anemia,hematologic disease,Small molecule,,,50

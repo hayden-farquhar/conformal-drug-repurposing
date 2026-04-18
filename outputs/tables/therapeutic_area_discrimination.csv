@@ -1,0 +1,8 @@
+group,n_test,n_positive,n_negative,auroc,auprc,note
+cardiovascular,42,14,28,0.9260204081632654,0.8837665440149912,
+infectious,22,1,21,1.0,1.0,
+metabolic,8,0,8,,,insufficient class diversity
+neurological,80,15,65,0.8974358974358975,0.5707335042053712,
+oncology,20,3,17,1.0,1.0,
+other,270,49,221,0.877273986517684,0.5907502450888896,
+rare_disease,62,2,60,0.9500000000000001,0.625,

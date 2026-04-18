@@ -1,0 +1,12 @@
+{
+  "total_novel_pairs": 3693606,
+  "top_50_mean_prob": 0.9902857804298401,
+  "confirmed_in_test_top_50": 0,
+  "confirmed_in_test_top_100": 0,
+  "filters_applied": {
+    "training_positives_removed": 13642,
+    "exact_ci_removed": 19344,
+    "ontology_and_shared_target_removed": 2694712,
+    "therapeutic_area_removed": 5854
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "train": {
+    "auroc": 0.9401400787153522,
+    "auprc": 0.04123033029167973,
+    "brier": 0.1056087000356725,
+    "n_samples": 500000,
+    "n_positive": 998
+  },
+  "calibration": {
+    "auroc": 0.8428368055555556,
+    "auprc": 0.5027825643062264,
+    "brier": 0.12993105868970226,
+    "n_samples": 1440,
+    "n_positive": 240
+  },
+  "test": {
+    "auroc": 0.8328231292517005,
+    "auprc": 0.5441795388029331,
+    "brier": 0.1337281540378572,
+    "n_samples": 504,
+    "n_positive": 84
+  },
+  "training": {
+    "epochs_run": 80,
+    "best_cal_auroc": 0.8358159722222223,
+    "training_time_sec": 117.10424375534058,
+    "model_params": 11307649,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "learning_rate": 0.001,
+    "neg_ratio": 5,
+    "device": "cuda",
+    "graph_nodes": {
+      "drug": 5045,
+      "target": 31370,
+      "disease": 47030
+    },
+    "graph_edges": {
+      "('drug', 'mechanism', 'target')": 14559,
+      "('target', 'interacts', 'target')": 458564,
+      "('target', 'associated', 'disease')": 4508002,
+      "('disease', 'parent_of', 'disease')": 128186,
+      "('target', 'rev_mechanism', 'drug')": 14559,
+      "('disease', 'rev_associated', 'target')": 4508002
+    }
+  }
+}

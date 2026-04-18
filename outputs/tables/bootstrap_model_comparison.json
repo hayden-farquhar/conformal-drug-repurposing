@@ -1,0 +1,20 @@
+{
+  "xgboost": {
+    "auroc": 0.9055555555555556,
+    "auroc_ci_low": 0.8742101793853865,
+    "auroc_ci_high": 0.9329651066750037,
+    "auprc": 0.6250551763825952,
+    "auprc_ci_low": 0.5203618222465146,
+    "auprc_ci_high": 0.7437409344987661
+  },
+  "n_bootstrap": 10000,
+  "xgboost_vs_graphsage": {
+    "auroc_difference": 0.07273242630385501,
+    "significance": "significant",
+    "note": "Based on whether GraphSAGE point estimate falls outside XGBoost bootstrap CI"
+  },
+  "xgboost_vs_lr": {
+    "auroc_difference": 0.11094104308390018,
+    "significance": "significant"
+  }
+}
